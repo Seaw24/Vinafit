@@ -7,7 +7,6 @@ while True:
     if not suscess:
         print("Failed to grab frame")
         break
-
     cv2.line(frame, (0, 400), (640, 400), (0, 255, 0), 4)
     cv2.putText(frame, "VinaFit HUD Active", (20, 50),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
